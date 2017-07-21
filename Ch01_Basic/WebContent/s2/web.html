@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>웹표준을 지키지 않은 문서</title>
+<link href="..\style\jung.css" rel="stylesheet" type="text/css">
+<style>
+	table,tr,td{
+		border : 2px solid red;
+		border-collapse :collapse;
+	}
+</style>
+</head>
+<body>
+<p>문단입니다</p>
+<p>문단입니다</p>
+id는 #, 점(.)은 class<br>
+<span class="abc">이제 웹표준의</span> 역할은 아주<span class="abc">아주아주아주</span> 중요합니다.
+<table border="1">
+<tr>
+	<td>김수현</td>
+	<td colspan="2">새롬이</td>
+	
+</tr>
+<tr>
+	<td>1</td>
+	<td>2</td>
+	<td>3</td>
+</tr>
+</table>
+<br><br>
+<table>
+<tr>
+	<td>김수현</td>
+	<td>새롬이</td>
+	<td>너는 누구</td>
+</tr>
+<tr>
+	<td>1</td>
+	<td>2</td>
+	<td>3</td>
+</tr>
+</table>
+<br><br>
+<table>
+<tr>
+	<td rowspan="2">rowspan</td>
+	<td colspan="2">colspan</td>
+	<td>너는 누구</td>
+</tr>
+<tr>
+	<td>1</td>
+	<td>2</td>
+	<td>3</td>
+</tr>
+</table>
+<br><br>
+<table>
+<tr>
+	<td>rowspan</td>
+	<td rowspan="3">colspan</td>
+	<td>너는 누구</td>
+	<td>너는 누구</td>
+</tr>
+<tr>
+	<td>1</td>
+	
+	<td colspan="2">3</td>
+</tr>
+<tr>
+	<td>1</td>
+	<td>3</td>
+	<td>3</td>
+</tr>
+
+</table>
+<br><br><br>
+<table>
+	<tr>
+		<td>이름</td>
+		<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+		<td>연락처</td>
+		<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+	</tr>
+		<tr>
+		<td>주소</td>
+		<td colspan="3">&nbsp;&nbsp;&nbsp;</td>
+	</tr>	<tr>
+		<td>자기소개</td>
+		<td colspan="3">&nbsp;&nbsp;&nbsp;</td>
+	</tr>
+</table>
+</body>
+</html>
